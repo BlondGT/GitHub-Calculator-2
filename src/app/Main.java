@@ -19,7 +19,7 @@ public class Main {
         System.out.println(d);
         e = subtract(a, b);
         System.out.println(e);
-        f = divide(a, b);
+        f = divide(a, e);
         System.out.println(f);
     }
 
@@ -35,7 +35,7 @@ public class Main {
         return a - b;
     }
 
-    private static int divide (int a, int b) {
-        return a / b;
+    private static int divide (int e, int b) {
+        return e / b;
     }
 }
